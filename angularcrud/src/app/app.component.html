@@ -1,0 +1,7 @@
+<h1>List of movies</h1>
+<ul>
+  <li *ngFor ="let movie of movies">
+    <h2 (click) = "moviesClicked(movie)">{{movie.title}}</h2>
+
+  </li>
+</ul>
